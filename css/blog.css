@@ -33,7 +33,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 640px;
+  width: 100%;
 }
 .img {
    position: absolute;
