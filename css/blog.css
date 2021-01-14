@@ -33,6 +33,13 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 640px;
+}
+.img {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
 }
 .clear {
   clear: both;
@@ -41,7 +48,7 @@ h1 {
   display: none;
 }
 .wrap {
-  max-width: 700px;
+  max-width: 640px;
   margin: 0 auto;
 }
 .mono {
@@ -211,7 +218,7 @@ h1 {
 hr {
   border-top: #ccc;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 640px) {
   body {
     margin: 0 7px;
   }
